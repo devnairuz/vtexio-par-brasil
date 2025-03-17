@@ -1,0 +1,11 @@
+{
+    "flex-layout.row#seller-info": {
+        "children": ["seller-info"]
+    },
+    "flex-layout.row#unavailable": {
+        "props": {
+            "blockClass": ["unavailablecomponent"]
+        },
+        "children": ["unavailable-price"]
+    }
+}

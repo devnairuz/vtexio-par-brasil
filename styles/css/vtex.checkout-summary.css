@@ -1,0 +1,36 @@
+.summaryItemContainer--minicart:first-child {
+    display: none;
+}
+.summaryItemContainer--minicart {
+    margin: 0;
+    padding: 0;
+}
+.summaryItemLabel--minicart {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #1e1e1e;
+}
+.price--minicart {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #1e1e1e;
+}
+.summarySmallDisclaimer--minicart {
+    margin: 46px 0 21px;
+}
+
+@media (max-width: 639px) {
+    .summarySmallDisclaimer--minicart {
+        margin: 16px 0;
+    }
+    .price--minicart {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .summaryItemLabel--minicart {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}

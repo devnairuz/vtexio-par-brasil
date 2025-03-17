@@ -1,0 +1,37 @@
+{
+  "store.custom#politica-de-cookies": {
+    "children": [
+      "flex-layout.row#linha-bread",
+      "flex-layout.row#politica-de-cookies"
+    ]
+  },
+  "flex-layout.row#politica-de-cookies": {
+    "props": {
+      "blockClass": ["custom-container", "cms-page-container"]
+    },
+    "children": ["flex-layout.col#politica-de-cookies"]
+  },
+  "flex-layout.col#politica-de-cookies": {
+    "children": [
+      "rich-text#politica-de-cookies",
+      "rich-text#politica-de-cookies-conteudo"
+    ],
+    "props": {
+      "blockClass": ["cms-page-content"]
+    }
+  },
+  "rich-text#politica-de-cookies": {
+    "props": {
+      "blockClass": ["cms-page-title"],
+      "text": "# Política de Cookies"
+    }
+  },
+  "rich-text#politica-de-cookies-conteudo":{
+    "props": {
+      "blockClass": ["cms-page-content"],
+      "text": "## O que são Cookies?\nCookies são pequenos arquivos de texto que nosso site utiliza para melhorar sua experiência de navegação, lembrando suas preferências, hábitos de navegação e informações de login. Esses dados permitem que o site funcione de maneira mais eficiente e personalizada para você.\n\n## Por que utilizamos Cookies?\nNa NIVELE, utilizamos cookies para aprimorar sua experiência no site, personalizando o conteúdo e oferecendo produtos e serviços que sejam relevantes com base em suas escolhas e comportamento de navegação. O uso de cookies nos permite lembrar suas preferências e oferecer uma navegação mais fluida e agradável.\n\n## Conformidade com a LGPD\nEstamos em conformidade com a Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/18) e pedimos seu consentimento para a utilização de cookies, exceto aqueles que são estritamente necessários para o funcionamento do site.\n\n## O que é a LGPD\nA Lei Geral de Proteção de Dados (LGPD) é uma legislação que assegura a proteção dos seus dados pessoais, garantindo que suas informações sejam tratadas com segurança e respeito aos seus direitos.\n\n## Seus Direitos e Como Exercê-los\nVocê pode exercer seus direitos garantidos pela LGPD a qualquer momento através do nosso portal de Privacidade ou em uma de nossas lojas. É importante destacar que, em algumas situações, podemos reter informações para cumprir obrigações legais ou para o exercício regular dos nossos direitos, sempre informando quando isso for necessário.\n\n## Cuidados que Você Deve Tomar\nProteja suas informações não compartilhando senhas ou acessos a seus dispositivos. Sempre saia da sua conta ao usar computadores compartilhados, pois você é responsável pelas ações tomadas na sua conta. Além disso, fique atento a mensagens suspeitas solicitando dados ou confirmações; nunca envie suas informações através desses canais e utilize sempre os canais oficiais.",
+      "textAlignment": "initial",
+      "textPosition": "initial"
+    }
+  }
+}

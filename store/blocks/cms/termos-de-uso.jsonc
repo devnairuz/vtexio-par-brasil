@@ -1,0 +1,37 @@
+{
+  "store.custom#termos-de-uso": {
+    "children": [
+      "flex-layout.row#linha-bread",
+      "flex-layout.row#termos-de-uso"
+    ]
+  },
+  "flex-layout.row#termos-de-uso": { 
+    "props": {
+      "blockClass": ["custom-container", "cms-page-container"]
+    },
+    "children": ["flex-layout.col#conteudo-comprar"]
+  },
+  "flex-layout.col#conteudo-comprar": {
+    "children": [
+      "rich-text#termos-de-uso-title",
+      "rich-text#conteudo-termos-de-uso"
+    ],
+    "props": {
+      "blockClass": ["cms-page-content"]
+    }
+  },
+  "rich-text#termos-de-uso-title": {
+    "props": {
+      "blockClass": ["cms-page-title"],
+      "text": "# Como Comprar"
+    }
+  },
+  "rich-text#conteudo-termos-de-uso": {
+    "props": {
+      "blockClass": ["cms-page-content"],
+      "text": "Para comprar no MarketPlace Nivele é muito simples\n\n1- Escolha o produto que você quer comprar\n\n2- Clique em \"\"Adicionar ao carrinho\"\"\n\n3- Você pode continuar adicionar produtos ao carrinho ou clicar em \"\"Iniciar compra\"\"\n\n4- Preencha seus dados de contato e clique em \"\"Continuar\"\"\n\n5- Informe o endereço onde você quer receber sua compra\n\n6- Selecione a forma de frete que desejar e clique em \"Continuar\".\n\n7- Escolha o meio de pagamento.\n* Uma vez que você tenha escolhido o meio de pagamento, clique \"Continuar\".\n\n8- Na página de confirmação você poderá revisar toda a informação da compra e confirmar\n\n9- Depois de confirmada, você receberá um e-mail nosso\n\n10- Uma vez que o pagamento tenha sido recebido, enviaremos o comprovante e, claro, seu pedido!",
+      "textAlignment": "initial",
+      "textPosition": "initial"
+    }
+  }
+}

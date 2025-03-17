@@ -1,0 +1,16 @@
+{
+    "flex-layout.row#product-description": {
+        "props": {
+            "blockClass": ["custom-container", "description-pdp"]
+        },
+        "children": [
+            "product-description"
+        ]
+    },
+    "product-description": {
+        "props": {
+            "title": "Descrição Completa",
+            "collapseContent": false
+        }
+    }
+}

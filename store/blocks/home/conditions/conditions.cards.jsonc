@@ -1,0 +1,50 @@
+{
+  "info-card#condition1": {
+    "props": {
+      "id": "info-card-condition",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "assets/icons/icon-shipped.svg",
+      "headline": "Frete grátis para \n**todo o Brasil!**",
+      "blockClass": "info-card-condition",
+      "callToActionMode": "none",
+      "textMode": "rich-text"
+    }
+  },
+  "info-card#condition2": {
+    "props": {
+      "id": "info-card-condition",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "assets/icons/icon-credit-card.svg",
+      "headline": "Parcelamos em \n**até 3x sem juros**",
+      "blockClass": "info-card-condition",
+      "callToActionMode": "none",
+      "textMode": "rich-text"
+    }
+  },
+  "info-card#condition3": {
+    "props": {
+      "id": "info-card-condition",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "assets/icons/pix-new.svg",
+      "headline": "Desconto para \n**pagamentos via PIX**",
+      "blockClass": "info-card-condition",
+      "callToActionMode": "none",
+      "textMode": "rich-text"
+    }
+  },
+  "info-card#condition4": {
+    "props": {
+      "id": "info-card-condition",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "assets/icons/icon-security.svg",
+      "headline": "Compra Segura \n**direto do Fabricante**",
+      "blockClass": "info-card-condition",
+      "callToActionMode": "none",
+      "textMode": "rich-text"
+    }
+  }
+}

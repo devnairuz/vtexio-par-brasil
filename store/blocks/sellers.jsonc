@@ -1,0 +1,66 @@
+{
+    "store.sellers": {
+      "blocks": [
+        "seller-table"
+      ]
+    },
+    "seller-table": {
+      "children": [
+        "seller-head",
+        "seller-body"
+      ]
+    },
+    
+    "seller-body": {
+      "children": [
+        "seller-row"
+      ]
+    },
+
+    "seller-head": {
+      "children": [
+      "seller-head-cell#Seller"
+      ]
+    },
+    "seller-head-cell#Seller": {
+      "props": {
+        "title": "Disponível também nas lojas:"
+      }
+    },
+
+    "seller-row": {
+      "children": [
+        "product-images#seller",
+        "seller-name",
+        "seller-price",
+        "product-installments#seller-pdp",
+        "seller-add-to-cart"
+      ]
+    },
+    "product-images#seller": {
+      "props": {
+        "displayMode": "first-image",
+        "aspectRatio": "1:1",
+        "maxHeight": 104,
+        "zoomMode": "disabled",
+        "blockClass": ["seller-pdp"]
+      }
+    },
+    "product-installments#seller-pdp": {
+      "props": {
+        "blockClass": "seller-pdp",
+        "message": "até {installmentsNumber}x de {installmentValue}"
+      }
+    },
+    "seller-add-to-cart": {
+      "blocks":[
+        "add-to-cart-button#seller-pdp"
+      ]
+    },
+    "add-to-cart-button#seller-pdp": {
+      "props": {
+        "text": "COMPRAR"
+      }
+    }
+  }
+  

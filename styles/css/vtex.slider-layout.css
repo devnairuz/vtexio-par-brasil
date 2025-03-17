@@ -1,0 +1,86 @@
+.paginationDot {
+  background: #A2A2A2;
+  margin: 0 2px;
+  transition: all .3s ease-in-out;
+}
+.paginationDot--main-slider--isActive {
+  background: #00724A;
+}
+
+.sliderArrows {
+  box-shadow: 0px 2px 6px 0px #00000026;
+  background: #FFFFFF !important;
+  color: #7E7E7E;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.sliderLeftArrow--main-slider {
+  left: 8.5%;
+}
+.sliderRightArrow--main-slider {
+  right: 8.5%;
+}
+
+/* SLIDER PRINCIPAL */
+.paginationDotsContainer--main-slider {
+  bottom: 24px;
+}
+.imageElement--main-slider {
+  max-height: none !important;
+}
+
+/* SLIDER PRODUTOS */
+.slide--shelf-carousel {
+  margin: 0 14px;
+}
+.sliderArrows--shelf-carousel {
+  width: 58px;
+  height: 58px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.sliderLeftArrow--shelf-carousel {
+  left: -5px;
+}
+.sliderRightArrow--shelf-carousel {
+  right: -5px;
+}
+
+@media (max-width: 1199px) {
+  .sliderLeftArrow--shelf-carousel {
+    left: 0;
+  }
+  .sliderRightArrow--shelf-carousel {
+    right: 0;
+  }
+}
+
+@media (max-width: 1025px) {
+  .sliderArrows {
+    width: 40px;
+    height: 40px;
+  }
+  .sliderLeftArrow--main-slider,
+  .sliderLeftArrow--shelf-carousel {
+    left: 15px;
+  }
+  .sliderRightArrow--main-slider,
+  .sliderRightArrow--shelf-carousel {
+    right: 15px;
+  }
+  .paginationDotsContainer--main-slider {
+    bottom: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .sliderArrows--shelf-carousel {
+    top: 42%;
+    transform: translate(0, -42%);
+  }
+}

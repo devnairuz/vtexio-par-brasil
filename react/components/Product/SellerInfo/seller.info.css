@@ -1,0 +1,23 @@
+/* seller css */
+.sellerContainer {
+    padding: 16px 0;
+    margin: 24px 0 16px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #ECECEC;
+}
+
+.sellerName {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #666666;
+    margin: 0;
+}
+
+.sellerName strong {
+    font-weight: 700;
+    color: #225289;
+    text-decoration: underline;
+    margin-left: 4px;
+}

@@ -1,0 +1,37 @@
+{
+  "store.custom#quem-somos": {
+    "children": [
+      "flex-layout.row#linha-bread",
+      "flex-layout.row#quem-somos"
+    ]
+  },
+  "flex-layout.row#quem-somos": {
+    "props": {
+      "blockClass": ["custom-container", "cms-page-container"]
+    },
+    "children": ["flex-layout.col#conteudoquem"]
+  },
+  "flex-layout.col#conteudoquem": {
+    "children": [
+      "rich-text#quem-title",
+      "rich-text#sobrequemsomos"
+    ],
+    "props": {
+      "blockClass": ["cms-page-content"]
+    }
+  },
+  "rich-text#quem-title": {
+    "props": {
+      "blockClass": ["cms-page-title"],
+      "text": "# Quem Somos"
+    }
+  },
+  "rich-text#sobrequemsomos": {
+    "props": {
+      "blockClass": ["cms-page-content"],
+      "text": "A NIVELE é o seu Shopping Center virtual de farmácias, projetado para conectar **redes de farmácias e farmácias independentes** com consumidores de todo o Brasil. Nosso marketplace é uma plataforma inovadora que permite que essas farmácias aumentem suas vendas online, oferecendo produtos farmacêuticos, de bem-estar e saúde, 24 horas por dia, 7 dias por semana.\n\nNossa missão é clara: **desenvolver o negócio de redes e farmácias independentes**, proporcionando a elas uma presença online constante e acessível.\n\nNa NIVELE, entendemos que a satisfação do cliente é essencial. Por isso, oferecemos uma ampla variedade de produtos e a conveniência de escolher entre centenas de farmácias espalhadas pelo país. Comparamos instantaneamente **preços de medicamentos e custos de frete**, permitindo que nossos clientes façam compras seguras, econômicas e eficientes.\n\nEscolher a NIVELE é optar por um marketplace que valoriza tanto o crescimento das farmácias quanto a saúde e bem-estar dos consumidores. Com uma experiência de compra simplificada e acessível, ajudamos as farmácias a se destacarem no mercado e os clientes a encontrarem exatamente o que precisam, quando precisam.\n\nSomos mais do que uma plataforma de vendas; somos parceiros no crescimento do setor farmacêutico e na promoção da saúde de nossos clientes.\n\nExplore a NIVELE e descubra como podemos transformar sua experiência de compra dos seus produtos.",
+      "textAlignment": "initial",
+      "textPosition": "initial"
+    }
+  }
+}

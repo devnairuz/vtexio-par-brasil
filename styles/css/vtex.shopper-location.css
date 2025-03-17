@@ -1,0 +1,22 @@
+.changeLocationSubmitContainer :global(.vtex-button__label)  {
+    font-size: 0;
+}
+.changeLocationSubmitContainer :global(.vtex-button__label):last-child  {
+    font-size: 0;
+    position: relative;
+}
+.changeLocationSubmitContainer :global(.vtex-button) {
+    background-color: #000;
+}
+.changeLocationSubmitContainer :global(.vtex-button):hover{
+    background-color: #072c75;
+}
+.changeLocationSubmitContainer :global(.vtex-button__label):last-child::before  {
+    content: "SALVAR";
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: center;
+    color: #fff;
+}

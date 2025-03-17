@@ -1,0 +1,37 @@
+{
+  "store.custom#politicas-de-envio-trocas-e-devolucoes": {
+    "children": [
+      "flex-layout.row#linha-bread",
+      "flex-layout.row#politicas-de-envio-trocas-e-devolucoes"
+    ]
+  },
+  "flex-layout.row#politicas-de-envio-trocas-e-devolucoes": {
+    "props": {
+      "blockClass": ["custom-container", "cms-page-container"]
+    },
+    "children": ["flex-layout.col#politicas-de-envio-trocas-e-devolucoes-conteudo"]
+  },
+  "flex-layout.col#politicas-de-envio-trocas-e-devolucoes-conteudo": {
+    "children": [
+      "rich-text#politicas-de-envio-trocas-e-devolucoes-title",
+      "rich-text#politicas-de-envio-trocas-e-devolucoes-conteudo"
+    ],
+    "props": {
+      "blockClass": ["cms-page-content"]
+    }
+  },
+  "rich-text#politicas-de-envio-trocas-e-devolucoes-title": {
+    "props": {
+      "blockClass": ["cms-page-title"],
+      "text": "# Política de Envio"
+    }
+  },
+  "rich-text#politicas-de-envio-trocas-e-devolucoes-conteudo": {
+    "props": {
+      "blockClass": ["cms-page-content"],
+      "text": "Política de Envio",
+      "textAlignment": "initial",
+      "textPosition": "initial"
+    }
+  }
+}

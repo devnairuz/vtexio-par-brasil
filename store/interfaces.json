@@ -1,0 +1,34 @@
+{
+  "mega-menu": {
+    "component": "MegaMenu",
+    "composition": "children"
+  },
+
+  "seller-minicart": {
+    "component": "SellerInfoMinicart"
+  },
+
+  "short-description": {
+    "component": "ShortDescription"
+  },
+  "seller-info": {
+    "component": "SellerInfo"
+  },
+  "unavailable-price": {
+    "component": "UnavailablePrice",
+    "composition": "children"
+  },
+
+  "info-tabs": {
+    "component": "InfoTabs",
+    "composition": "children"
+  },
+
+  "social-medias": {
+    "component": "SocialMedias"
+  },
+
+  "banner-slider": {
+    "component": "BannerSlider"
+  }
+}
