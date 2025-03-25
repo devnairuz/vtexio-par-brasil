@@ -41,12 +41,14 @@
       "blockClass": "cms-menu-wrapper-content"
     },
     "children": [
-      "rich-text#cms-quem-somos", // quem somos
-      "rich-text#cms-termos-de-uso", // termos de uso
-      "rich-text#cms-politicas-de-envio-trocas-e-devolucoes", // politicas de envio, trocas e devoluções
-      "rich-text#cms-politicas-pagamento", // politicas de pagamento
-      "rich-text#cms-politicas-privacidade-e-protecao-de-dados", // politicas de privacidade e proteção de dados
-      "rich-text#cms-cookies" // politicas de cookies
+      "rich-text#cms-quem-somos", 
+      "rich-text#cms-termos-de-uso",
+      "rich-text#cms-politicas-de-envio-trocas-e-devolucoes", 
+      "rich-text#cms-fale-conosco", 
+      "rich-text#cms-fabricantes",
+      "rich-text#cms-politicas-privacidade-e-protecao-de-dados",
+      "rich-text#cms-cookies",
+      "rich-text#cms-duvidas-mais-frequentes"
     ]
   },
 
@@ -72,9 +74,15 @@
     }
   },
 
-  "rich-text#cms-politicas-pagamento": {
+  "rich-text#cms-fale-conosco": {
     "props": {
-      "text": "[Políticas de Pagamento](/politicas-de-pagamento)",
+      "text": "[Fale conosco](/fale-conosco)",
+      "blockClass": "cms-link"
+    }
+  },
+  "rich-text#cms-fabricantes": {
+    "props": {
+      "text": "[Fabricantes](/fabricantes)",
       "blockClass": "cms-link"
     }
   },
@@ -89,6 +97,13 @@
   "rich-text#cms-cookies": {
     "props": {
       "text": "[Políticas de Cookies](/politica-de-cookies)",
+      "blockClass": "cms-link"
+    }
+  },
+
+  "rich-text#cms-duvidas-mais-frequentes": {
+    "props": {
+      "text": "[Dúvidas mais frequentes](/duvidas-mais-frequentes)",
       "blockClass": "cms-link"
     }
   }

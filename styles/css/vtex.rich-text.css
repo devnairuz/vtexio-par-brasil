@@ -187,26 +187,60 @@
 }
 
 /* PÁGINAS CMS */
+
+.headingLevel4--cms-page-content-fabricante{
+  font-size: 16px;
+  color:#1E1E1E;
+  margin-bottom: 0.5rem;
+}
+
+.link--cms-page-content-fabricante{
+  font-size: 12px;
+  color:#1E1E1E;
+  font-weight: 400;
+}
+
+.paragraph--cms-page-content-fabricante{
+  font-size: 14px;
+  color:#666666;
+  margin:0;
+  width: fit-content;
+}
+
+.flexRowContent--cms-page-content-fabricante{
+  max-width: 255px;
+  width: 100%;
+}
+
+.strong--cms-page-content{
+  display: block;
+  font-weight: 700;
+}
+
 .headingLevel1--cms-page-title {
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 700;
   line-height: 41px;
   color: #225289;
-  margin: 0 0 32px;
+  margin: 0 0 24px;
 }
 .heading--cms-page-content {
   font-size: 20px;
   font-weight: 700;
   line-height: 25px;
   margin: 0 0 16px;
-  color: #000;
+  color: #1E1E1E;
+}
+.paragraph--cms-page-content2{
+  font-size: 14px;
+  margin-top: 0;
 }
 .paragraph--cms-page-content {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 20px;
   margin-top: 0;
-  color: #000;
+  color: #1E1E1E;
 }
 .listOrdered--cms-page-content,
 .list--cms-page-content {
@@ -214,6 +248,14 @@
 }
 .listItem--cms-page-content:not(:first-child) {
   margin-top: 16px;
+}
+
+.heading-level-3{
+  font-size: 16px;
+}
+
+.heading-level-2{
+  font-size: 20px;
 }
 
 /*LOJAS PARCEIRAS*/
@@ -306,6 +348,37 @@
 }
 
 @media (max-width: 767px) {
+
+  /*páginas cms*/
+
+  .paragraph--cms-page-content{
+    font-size: 16px;
+  }
+
+  .heading-level-1{
+    line-height: 30px;
+  }
+  :global(.vtex-render__container-id-politicas-de-privacidade) .paragraph--cms-page-content,
+  :global(.vtex-render__container-id-politica-de-cookies) .paragraph--cms-page-content,
+  :global(.vtex-render__container-id-duvidas-mais-frequentes) .paragraph--cms-page-content,
+  :global(.vtex-render__container-id-termos-de-uso) .paragraph--cms-page-content{
+    font-size: 14px;
+  }
+
+  .heading-level-3{
+    margin-bottom: 16px;
+  }
+
+  .flexRowContent--cms-page-content-fabricantes{
+    max-width: 186px;
+  }
+
+  :global(.vtex-render__container-id-fabricantes) .stretchChildrenWidth{
+    width: fit-content!important;
+  }
+
+  /*fim cms*/
+
   .container--store-info {
     justify-content: center;
   }

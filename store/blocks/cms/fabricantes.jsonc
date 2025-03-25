@@ -1,0 +1,147 @@
+{
+    "store.custom#fabricantes":{
+       "children":[
+          "flex-layout.row#linha-bread",
+          "flex-layout.row#fabricantes"
+       ]
+    },
+    "flex-layout.row#fabricantes":{
+       "props":{
+          "blockClass":[
+             "custom-container",
+             "cms-page-container"
+          ]
+       },
+       "children":[
+          "flex-layout.col#conteudofabricantes"
+       ]
+    },
+    "flex-layout.col#conteudofabricantes":{
+       "children":[
+          "rich-text#fabricantes-title",
+          "flex-layout.row#conteudodosfabricantes",
+          "flex-layout.row#conteudodosfabricantes1"
+       ],
+       "props":{
+          "blockClass":[
+             "cms-page-content-fabricantes"
+          ]
+       }
+    },
+    "flex-layout.row#conteudodosfabricantes":{
+        "children":[
+           "rich-text#fabricantes",
+           "rich-text#fabricantes1",
+           "rich-text#fabricantes2",
+           "rich-text#fabricantes3"
+          
+        ],
+        "props":{
+           "blockClass":[
+              "cms-page-content-fabricantes", "first-block-fabricantes"
+           ]
+        }
+     },
+     "flex-layout.row#conteudodosfabricantes1":{
+        "children":[
+           "rich-text#fabricantes4",
+           "rich-text#fabricantes5",
+           "rich-text#fabricantes6",
+           "rich-text#fabricantes7"
+        ],
+        "props":{
+           "blockClass":[
+              "cms-page-content-fabricantes"
+           ]
+        }
+     },
+    "rich-text#fabricantes-title":{
+       "props":{
+          "blockClass":[
+             "cms-page-title"
+          ],
+          "text":"# Fabricantes"
+       }
+    },
+    "rich-text#fabricantes":{
+       "props":{
+          "blockClass":[
+             "cms-page-content-fabricante"
+          ],
+          "text":"#### Rodolfo Eletro\nRua. Nelson Gama de Oliveira, 739 - CJ 104B, Vila Andrade, São Paulo.\n\n[Ver localização](#)",
+          "textAlignment":"initial",
+          "textPosition":"initial"
+        }
+    },
+    "rich-text#fabricantes1":{
+          "props":{
+             "blockClass":[
+                "cms-page-content-fabricante"
+             ],
+             "text":"#### Rodolfo Eletro\nRua. Nelson Gama de Oliveira, 739 - CJ 104B, Vila Andrade, São Paulo.\n\n[Ver localização](#)",
+             "textAlignment":"initial",
+             "textPosition":"initial"
+          }
+       },
+    "rich-text#fabricantes2":{
+       "props":{
+          "blockClass":[
+             "cms-page-content-fabricante"
+          ],
+          "text":"#### Rodolfo Eletro\nRua. Nelson Gama de Oliveira, 739 - CJ 104B, Vila Andrade, São Paulo.\n\n[Ver localização](#)",
+          "textAlignment":"initial",
+          "textPosition":"initial"
+       }
+    },
+    "rich-text#fabricantes3":{
+       "props":{
+          "blockClass":[
+             "cms-page-content-fabricante"
+          ],
+          "text":"#### Rodolfo Eletro\nRua. Nelson Gama de Oliveira, 739 - CJ 104B, Vila Andrade, São Paulo.\n\n [Ver localização](#)",
+          "textAlignment":"initial",
+          "textPosition":"initial"
+       }
+    },
+    
+    "rich-text#fabricantes4":{
+        "props":{
+           "blockClass":[
+              "cms-page-content-fabricante"
+           ],
+           "text":"#### Rodolfo Eletro\nRua. Nelson Gama de Oliveira, 739 - CJ 104B, Vila Andrade, São Paulo.\n\n [Ver localização](#)",
+           "textAlignment":"initial",
+           "textPosition":"initial"
+        }
+     },
+     "rich-text#fabricantes5":{
+        "props":{
+           "blockClass":[
+              "cms-page-content-fabricante"
+           ],
+           "text":"#### Rodolfo Eletro\nRua. Nelson Gama de Oliveira, 739 - CJ 104B, Vila Andrade, São Paulo.\n\n [Ver localização](#)",
+           "textAlignment":"initial",
+           "textPosition":"initial"
+        }
+     },
+     "rich-text#fabricantes6":{
+        "props":{
+           "blockClass":[
+              "cms-page-content-fabricante"
+           ],
+           "text":"#### Rodolfo Eletro\nRua. Nelson Gama de Oliveira, 739 - CJ 104B, Vila Andrade, São Paulo.\n\n [Ver localização](#)",
+           "textAlignment":"initial",
+           "textPosition":"initial"
+        }
+     },
+     "rich-text#fabricantes7":{
+        "props":{
+           "blockClass":[
+              "cms-page-content-fabricante"
+           ],
+           "text":"#### Rodolfo Eletro\nRua. Nelson Gama de Oliveira, 739 - CJ 104B, Vila Andrade, São Paulo.\n\n [Ver localização](#)",
+           "textAlignment":"initial",
+           "textPosition":"initial"
+        }
+     }
+ }

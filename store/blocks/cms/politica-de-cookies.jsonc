@@ -14,7 +14,8 @@
   "flex-layout.col#politica-de-cookies": {
     "children": [
       "rich-text#politica-de-cookies",
-      "rich-text#politica-de-cookies-conteudo"
+      "rich-text#politica-de-cookies-conteudo",
+      "rich-text#politica-de-cookies-conteudo2"
     ],
     "props": {
       "blockClass": ["cms-page-content"]
@@ -23,13 +24,21 @@
   "rich-text#politica-de-cookies": {
     "props": {
       "blockClass": ["cms-page-title"],
-      "text": "# Política de Cookies"
+      "text": "# POLÍTICA DE COOKIES"
     }
   },
-  "rich-text#politica-de-cookies-conteudo":{
+  "rich-text#politica-de-cookies-conteudo": {
     "props": {
       "blockClass": ["cms-page-content"],
-      "text": "## O que são Cookies?\nCookies são pequenos arquivos de texto que nosso site utiliza para melhorar sua experiência de navegação, lembrando suas preferências, hábitos de navegação e informações de login. Esses dados permitem que o site funcione de maneira mais eficiente e personalizada para você.\n\n## Por que utilizamos Cookies?\nNa NIVELE, utilizamos cookies para aprimorar sua experiência no site, personalizando o conteúdo e oferecendo produtos e serviços que sejam relevantes com base em suas escolhas e comportamento de navegação. O uso de cookies nos permite lembrar suas preferências e oferecer uma navegação mais fluida e agradável.\n\n## Conformidade com a LGPD\nEstamos em conformidade com a Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/18) e pedimos seu consentimento para a utilização de cookies, exceto aqueles que são estritamente necessários para o funcionamento do site.\n\n## O que é a LGPD\nA Lei Geral de Proteção de Dados (LGPD) é uma legislação que assegura a proteção dos seus dados pessoais, garantindo que suas informações sejam tratadas com segurança e respeito aos seus direitos.\n\n## Seus Direitos e Como Exercê-los\nVocê pode exercer seus direitos garantidos pela LGPD a qualquer momento através do nosso portal de Privacidade ou em uma de nossas lojas. É importante destacar que, em algumas situações, podemos reter informações para cumprir obrigações legais ou para o exercício regular dos nossos direitos, sempre informando quando isso for necessário.\n\n## Cuidados que Você Deve Tomar\nProteja suas informações não compartilhando senhas ou acessos a seus dispositivos. Sempre saia da sua conta ao usar computadores compartilhados, pois você é responsável pelas ações tomadas na sua conta. Além disso, fique atento a mensagens suspeitas solicitando dados ou confirmações; nunca envie suas informações através desses canais e utilize sempre os canais oficiais.",
+      "text": "PAR BRASIL LTDA \nÚltima atualização: 17/01/2025\n\nA Par Brasil Ltda (\"Plataforma\") utiliza cookies e tecnologias similares para melhorar a experiência de navegação dos usuários, personalizar conteúdos e oferecer funcionalidades exclusivas. Esta Política de Cookies explica o que são cookies, como os utilizamos e como você pode gerenciar suas preferências.\n\n### 1. O QUE SÃO COOKIES?\nCookies são pequenos arquivos de texto armazenados no dispositivo do usuário (computador, tablet, smartphone) quando visita um site. Eles permitem que a Plataforma reconheça o dispositivo, registre suas preferências e otimize a experiência de navegação.\n\n### 2. TIPOS DE COOKIES UTILIZADOS\nA Par Brasil Ltda utiliza os seguintes tipos de cookies:\n\n**2.1. Cookies Essenciais** Esses cookies são necessários para o funcionamento básico da Plataforma, como acessar áreas seguras e realizar login. Sem eles, certos serviços podem não funcionar corretamente.\n\n**2.2. Cookies de Desempenho** Coletam informações sobre como os usuários interagem com a Plataforma, permitindo analisar e melhorar seu desempenho. Por exemplo, identificam as páginas mais visitadas e eventuais mensagens de erro.\n\n**2.3. Cookies Funcionais** Permitem que a Plataforma lembre preferências do usuário, como idioma, região ou configurações personalizadas, melhorando a experiência de navegação.\n\n**2.4. Cookies de Publicidade** Utilizados para apresentar anúncios personalizados e relevantes ao usuário, com base em suas interações na Plataforma e em outros sites.\n\n### 3. FINALIDADES DO USO DE COOKIES\nOs cookies são utilizados para:\n-Garantir o funcionamento seguro e eficiente da Plataforma.\n-Personalizar a experiência de navegação.\n-Analisar o tráfego e comportamento do usuário para melhorar o serviço.\n-Oferecer conteúdos e anúncios personalizados.\n-Registrar preferências do usuário, como idioma e configurações de exibição.\n\n### 4. GERENCIAMENTO DE COOKIES\n\n**4.1. Configurações do Navegador** Você pode gerenciar e desativar cookies diretamente nas configurações do seu navegador. Observe que, ao desativar cookies essenciais, algumas funcionalidades da Plataforma podem ser prejudicadas.\n \n-Google Chrome: Configurações > Privacidade e segurança > Cookies e outros dados do site.\n-Mozilla Firefox: Opções > Privacidade > Cookies e dados do site.\n-Safari (Mac/iPhone): Preferências > Cookies e dados dos sites.\n-Microsoft Edge: Configurações > Cookies e permissões do site > Gerenciar e excluir cookies.\n\n**4.2. Ferramenta de Consentimento:**\nAo acessar a Plataforma pela primeira vez, você será solicitado a configurar suas preferências de cookies por meio de um banner. É possível alterar essas preferências a qualquer momento na seção de configurações de privacidade da Plataforma.\n\n### 5. TERCEIROS E COOKIES DE TERCEIROS\nA Plataforma pode permitir que terceiros (como provedores de anúncios e serviços de análise) instalem cookies em seu dispositivo. Esses cookies são regidos pelas políticas de privacidade dessas empresas, que podem ser consultadas diretamente nos seus sites.\n\n### 6. ATUALIZAÇÕES DA POLÍTICA DE COOKIES\nA Par Brasil Ltda pode atualizar esta Política de Cookies periodicamente. Qualquer alteração será comunicada aos usuários por meio de notificações na Plataforma ou por e-mail, quando aplicável.\n\n### 7. CONTATO\nSe tiver dúvidas sobre esta Política de Cookies ou sobre como utilizamos seus dados, entre em contato conosco:",
+      "textAlignment": "initial",
+      "textPosition": "initial"
+    }
+  },
+  "rich-text#politica-de-cookies-conteudo2": {
+    "props": {
+      "blockClass": ["cms-page-content2"],
+      "text": "**- E-mail:** atendimento@parbrasil.com.br \n **- Endereço:** Avenida Europa 696, Jardim Paulistano / São Paulo-SP",
       "textAlignment": "initial",
       "textPosition": "initial"
     }

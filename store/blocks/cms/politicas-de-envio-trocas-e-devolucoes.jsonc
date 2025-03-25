@@ -14,7 +14,8 @@
   "flex-layout.col#politicas-de-envio-trocas-e-devolucoes-conteudo": {
     "children": [
       "rich-text#politicas-de-envio-trocas-e-devolucoes-title",
-      "rich-text#politicas-de-envio-trocas-e-devolucoes-conteudo"
+      "rich-text#politicas-de-envio-trocas-e-devolucoes-conteudo",
+      "rich-text#politicas-de-envio-trocas-e-devolucoes-conteudo2"
     ],
     "props": {
       "blockClass": ["cms-page-content"]
@@ -23,15 +24,24 @@
   "rich-text#politicas-de-envio-trocas-e-devolucoes-title": {
     "props": {
       "blockClass": ["cms-page-title"],
-      "text": "# Política de Envio"
+      "text": "# POLÍTICA DE ENVIO, TROCAS E DEVOLUÇÕES   "
     }
   },
-  "rich-text#politicas-de-envio-trocas-e-devolucoes-conteudo": {
+  "rich-text#politicas-de-envio-trocas-e-devolucoes-conteudo": { 
     "props": {
       "blockClass": ["cms-page-content"],
-      "text": "Política de Envio",
+      "text": "\n\nPAR BRASIL LTDA  \nÚltima atualização: 17/01/2025\n\nA Plataforma Par Brasil Ltda (\"Plataforma\") atua como um intermediador entre consumidores (usuários) e vendedores (Sellers) para facilitar a compra de produtos e serviços. Este documento estabelece as diretrizes sobre envio, trocas e devoluções, respeitando o Código de Defesa do Consumidor (CDC) e as responsabilidades dos Sellers/Fabricantes.\n\n### 1. ENVIO E ENTREGA  \n**1.1. Responsabilidade dos Sellers:**  -O envio e a entrega dos produtos adquiridos pelos usuários são de responsabilidade exclusiva dos Sellers.  \n-Os Sellers são responsáveis por informar o prazo estimado de entrega, os custos e as condições de transporte no momento da compra.  \n-A Plataforma não realiza o envio ou a entrega de produtos, mas acompanha a transação para garantir a intermediação entre usuários e Sellers, quando necessário.\n\n**1.2. Prazo de Entrega:**  -O prazo de entrega pode variar conforme a localidade e a modalidade de envio escolhida, sendo informado na página do produto antes da finalização da compra.  \n-Caso o prazo não seja cumprido, o usuário deve entrar em contato com o Seller diretamente ou por meio dos canais de atendimento da Plataforma para intermediação.\n\n### 2. TROCAS E DEVOLUÇÕES  \n**2.1. Responsabilidade dos Sellers:**  -A gestão de trocas e devoluções é de responsabilidade exclusiva dos Sellers.  \n-Cada Seller deve informar sua política específica de trocas e devoluções na página de seus produtos, respeitando as diretrizes do CDC.\n\n**2.2. Direito de Arrependimento:**  Conforme o CDC, o consumidor tem o direito de se arrepender da compra no prazo de 7 (sete) dias corridos a partir do recebimento do produto, sem necessidade de justificativa. Neste caso:  \n-O usuário deve notificar o Seller diretamente ou entrar em contato com a Plataforma para mediação.  \n-O produto deve ser devolvido em perfeitas condições, na embalagem original, com todos os acessórios e sem indícios de uso.  \n-O Seller é responsável pela restituição integral do valor pago, incluindo o frete, em até 10 (dez) dias úteis após o recebimento do produto devolvido.\n\n**2.3. Produtos com Defeito ou Avaria:**  -Caso o produto apresente defeito ou avaria, o usuário deve comunicar o Seller em até 30 (trinta) dias corridos após o recebimento, ou conforme o prazo de garantia legal ou contratual do produto.  \n-O Seller deve realizar a troca ou reembolso, sem custo adicional para o usuário, e fornecer orientações sobre o envio do produto devolvido.\n\n**2.4. Trocas por Tamanho ou Modelo:**  -Para trocas por motivos como tamanho ou cor do modelo, o usuário deve seguir as políticas específicas do Seller, que podem incluir custos adicionais de envio.\n\n### 3. PROCESSO DE TROCA OU DEVOLUÇÃO  \n**3.1. Início do Processo:**  O usuário deve iniciar o processo diretamente com o Seller pelos meios informados ou contatar a Plataforma para suporte.\n\n**3.2. Documentação Necessária:**  -O usuário deve apresentar comprovante de compra (nota fiscal) e descrever o motivo da troca ou devolução.  -Em caso de defeito ou avaria, imagens ou vídeos do produto podem ser solicitados para agilizar o atendimento.\n\n**3.3. Logística Reversa:**  -Os custos de devolução são de responsabilidade do Seller quando a troca ou devolução ocorrer por defeito, avaria ou direito de arrependimento.  -Nos demais casos, o Seller pode determinar políticas específicas sobre os custos de devolução, desde que comunicados previamente.\n\n### 4. SUPORTE DA PLATAFORMA \n  A Plataforma Par Brasil Ltda oferece suporte aos usuários, atuando como mediadora em casos de dificuldade de comunicação com os Sellers. \n-O suporte pode ser acionado através do e-mail: `atendimento@parbrasil.com.br` ou outro canal disponibilizado na Plataforma.  \n-A Plataforma busca garantir que as políticas de envio, trocas e devoluções sejam aplicadas de forma justa e em conformidade com o CDC.\n\n### 5. LIMITAÇÕES DE RESPONSABILIDADE DA PLATAFORMA  \n-A Plataforma não é responsável direta pelo envio e entrega dos produtos, nem pela gestão de trocas ou devoluções; uma vez que essas responsabilidades são dos Sellers.  \n-A Plataforma compromete-se a intermediar a comunicação entre o usuário e o Seller em caso de problemas, buscando soluções ágeis e satisfatórias.\n\n### 6. DISPOSIÇÕES GERAIS  \n-Esta Política está sujeita a alterações para se adequar às atualizações legais ou operacionais da Plataforma e dos Sellers.  \n-O uso da Plataforma implica a aceitação desta Política, bem como das condições específicas de cada Seller.\n\nPara dúvidas ou reclamações, entre em contato com a Plataforma:",
+      "textAlignment": "initial",
+      "textPosition": "initial"
+    }
+  },
+  "rich-text#politicas-de-envio-trocas-e-devolucoes-conteudo2": {
+    "props": {
+      "blockClass": ["cms-page-content2"],
+      "text": "**- E-mail:** atendimento@parbrasil.com.br \n **- Telefone:** 11 2373-4700  \n **- Endereço:** Avenida Europa 696, Jardim Paulistano / São Paulo-SP \n\n Ao comprar pela Plataforma Par Brasil, você concorda com os termos desta Política. ",
       "textAlignment": "initial",
       "textPosition": "initial"
     }
   }
+
 }
