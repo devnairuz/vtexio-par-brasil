@@ -11,8 +11,12 @@
     "path": "/politicas-de-envio-trocas-e-devolucoes"
   },
 
-  "store.custom#politica-de-pagamento": {
-    "path": "/politicas-de-pagamento"
+  "store.custom#fale-conosco": {
+    "path": "/fale-conosco"
+  },
+  
+  "store.custom#fabricantes": {
+    "path": "/fabricantes"
   },
 
   "store.custom#politicas-privacidade-e-protecao-de-dados": {
@@ -25,5 +29,9 @@
 
   "store.custom#login-par-brasil": {
     "path": "/login-par-brasil"
+  },
+
+  "store.custom#duvidas-mais-frequentes": {
+    "path": "/duvidas-mais-frequentes"
   }
 }

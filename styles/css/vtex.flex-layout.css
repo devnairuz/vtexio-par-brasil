@@ -612,8 +612,35 @@
 /*FIM RODAPÉ MINICART*/
 
 /* PÁGINAS CMS */
-.flexRow--cms-page-container {
+.cms-page-content-fabricantes {
   margin: 0px 0 64px;
+}
+
+.flexRowContent--cms-page-content-fabricantes{
+  justify-content: space-between;
+}
+
+.flexRowContent--first-block-fabricantes{
+  margin-bottom: 0.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #ECECEC;
+}
+
+.flexCol--cms-page-content-fabricantes{
+  padding-bottom: 6%;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--cms-page-content-fabricantes) .stretchChildrenWidth{
+  max-width: 255px!important;
+}
+
+.flexRowContent--cms-page-content-fabricantes{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flexRow--cms-page-container{
+  margin-bottom: 4rem;
 }
 
 @media (min-width: 1100px) {
@@ -800,6 +827,15 @@
 }
 
 @media (max-width: 991px) {
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--cms-page-content-fabricantes) .stretchChildrenWidth{
+    max-width: 186px!important;
+  }
+
+  .flexRow--cms-page-container{
+    margin-bottom: 4rem;
+  }
+
   .flexColChild--summary-action-content:last-child {
     width: 100%;
   }
