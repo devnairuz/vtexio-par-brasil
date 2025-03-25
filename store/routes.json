@@ -21,5 +21,9 @@
 
   "store.custom#politica-de-cookies": {
     "path": "/politica-de-cookies"
+  },
+
+  "store.custom#login-par-brasil": {
+    "path": "/login-par-brasil"
   }
 }
