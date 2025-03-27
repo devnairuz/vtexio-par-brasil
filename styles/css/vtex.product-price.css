@@ -29,8 +29,7 @@
 .listPrice--list-price-pdp :global(.vtex-flex-layout-0-x-flexRow--unavailablecomponent) {
   display: none;
 }
-.listPrice--list-price-summary::before,
-.sellingPrice--selling-price-summary:not(.sellingPrice--selling-price-summary--hasListPrice)::before {
+.listPrice--list-price-summary::before {
   content: 'Preço varejo:';
   font-size: 12px;
   line-height: 15px;
@@ -39,11 +38,43 @@
   display: block;
 }
 
+.sellingPrice--selling-price-summary:not(.sellingPrice--selling-price-summary--hasListPrice)::before {
+  content: ".";
+  font-size: 12px;
+  color: transparent;
+  line-height: 15px;
+  margin-bottom: 2px;
+  display: block;
+}
+
+
+
+.savings {
+  background: #C0E5FF;
+  font-size: 14px;
+  padding: 2px 10px;
+  line-height: 18px;
+  color: #1E1E1E;
+}
+
 /* PÁGINA DO PRODUTO */
 .listPrice--list-price-pdp {
+  display: flex;
+  align-items: center;
+  gap: 4px;
   color: #979797;
   font-size: 14px;
 }
+
+.listPrice--list-price-pdp::before {
+  content: 'Preço varejo:';
+  font-size: 14px;
+  line-height: 15px;
+  color: #979797;
+  margin-bottom: 2px;
+  display: block;
+}
+
 .sellingPrice--selling-price-pdp {
   display: block;
   margin: 0 0 4px;

@@ -18,6 +18,10 @@
   width: 100%;
 }
 
+.discountInsideContainer {
+  display: none;
+}
+
 /* LOGO */
 .logoContainer {
   display: inline-block;

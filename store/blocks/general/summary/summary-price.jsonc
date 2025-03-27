@@ -26,16 +26,27 @@
     "props": {
       "blockClass": ["list-selling-price-summary"]
     },
-    "children": ["product-list-price#summary", "product-selling-price#summary"]
+    "children": ["product-list-price#summary", "flex-layout.row#price-tag-summary"]
   },
   "product-list-price#summary": {
     "props": {
       "blockClass": "list-price-summary"
     }
   },
+  "flex-layout.row#price-tag-summary": {
+    "props": {
+      "blockClass": "container-price-tag-summary"
+    },
+    "children": ["product-selling-price#summary", "product-price-savings#pdp"]
+  },
   "product-selling-price#summary": {
     "props": {
       "blockClass": "selling-price-summary"
+    }
+  },
+  "product-price-savings#pdp": {
+    "props": {
+      "message": "-{savingsPercentage}"
     }
   },
 

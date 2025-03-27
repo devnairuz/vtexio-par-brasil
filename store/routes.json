@@ -27,10 +27,6 @@
     "path": "/politica-de-cookies"
   },
 
-  "store.custom#login-par-brasil": {
-    "path": "/login-par-brasil"
-  },
-
   "store.custom#duvidas-mais-frequentes": {
     "path": "/duvidas-mais-frequentes"
   }

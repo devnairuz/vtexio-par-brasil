@@ -1,6 +1,6 @@
 {
   "flex-layout.row#upper-mosaic": {
-    "title": "Mosaico Quádruplo",
+    "title": "Mosaico Triplo",
     "props": {
       "blockClass": ["upper-mosaic-container", "custom-container"]
     },
@@ -17,7 +17,7 @@
   "image#upper-mosaic-first": {
     "props": {
       "blockClass":"image__upper-mosaic",
-      "src": "assets/upper-mosaic/mosaicotopo1.jpg",
+      "src": "assets/upper-mosaic/banner_eletrodomesticos.jpg",
       "alt": "Eletro Domésticos, conferir!",
       "link": {
         "url": "/eletrodomesticos"
@@ -27,7 +27,7 @@
   "image#upper-mosaic-second": {
     "props": {
       "blockClass":"image__upper-mosaic",
-      "src": "assets/upper-mosaic/mosaicotopo2.jpg",
+      "src": "assets/upper-mosaic/banner_eletroeletronicos.jpg",
       "alt": "Eletro Eletrônicos, conferir!",
       "link": {
         "url": "/eletroeletronicos"
@@ -37,7 +37,7 @@
   "image#upper-mosaic-third": {
     "props": {
       "blockClass":"image__upper-mosaic",
-      "src": "assets/upper-mosaic/mosaicotopo3.jpg",
+      "src": "assets/upper-mosaic/banner_eletroportateis.jpg",
       "alt": "Eletro Portáteis, conferir!",
       "link": {
         "url": "/eletroportateis"

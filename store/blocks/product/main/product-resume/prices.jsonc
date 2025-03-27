@@ -16,7 +16,7 @@
     "children": [
       "product-list-price#pdp",
       "flex-layout.row#unavailable",
-      "product-selling-price#pdp"
+      "flex-layout.row#selling-price-tag"
     ]
   },
 
@@ -26,9 +26,21 @@
     }
   },
 
+  "flex-layout.row#selling-price-tag": {
+    "props": {
+      "blockClass": "container-price-tag-summary"
+    },
+    "children": ["product-selling-price#pdp", "product-price-savings#pdp"]
+  },
+
   "product-selling-price#pdp": {
     "props": {
       "blockClass": "selling-price-pdp"
+    }
+  },
+  "product-price-savings#pdp": {
+    "props": {
+      "message": "-{savingsPercentage}"
     }
   },
 

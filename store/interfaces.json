@@ -30,9 +30,5 @@
 
   "banner-slider": {
     "component": "BannerSlider"
-  },
-
-  "initial-login": {
-    "component": "FormInitialUserLogin"
   }
 }

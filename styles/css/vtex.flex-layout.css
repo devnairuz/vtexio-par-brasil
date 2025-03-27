@@ -217,6 +217,16 @@
   line-height: 0;
 }
 
+.flexRowContent--container-price-tag-summary {
+  align-items: center;
+  gap: .5rem;
+}
+
+.flexRowContent--container-price-tag-summary .stretchChildrenWidth {
+  width: auto !important;
+  height: min-content;
+}
+
 /* SEÇÃO MOSAICO RODAPÉ */
 .flexRow--bottom-mosaic-container {
   margin-bottom: 40px;
@@ -443,7 +453,7 @@
 }
 
 .flexRow--search-toolbar-container {
-  padding-bottom: 28px;
+  padding-bottom: 32px;
   border-bottom: 1px solid #E0E0E0;
 }
 

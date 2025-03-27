@@ -21,7 +21,7 @@
   "image#bottom-mosaic-first": {
     "props": {
       "blockClass":"image__bottom-mosaic",
-      "src": "assets/bottom-mosaic/mosaicobaixo1.jpg",
+      "src": "assets/bottom-mosaic/banner_celular.jpg",
       "alt": "Celulares e Smartphones, confira!",
       "link": {
         "url": "/eletroeletronicos/smartphones"
@@ -38,7 +38,7 @@
   "image#bottom-mosaic-second": {
     "props": {
       "blockClass":"image__bottom-mosaic",
-      "src": "assets/bottom-mosaic/mosaicobaixo2.jpg",
+      "src": "assets/bottom-mosaic/banner_utensilios.jpg",
       "alt": "Utensílios, confira!",
       "link": {
         "url": "/utilidades-domesticas"
@@ -48,7 +48,7 @@
   "image#bottom-mosaic-third": {
     "props": {
       "blockClass":"image__bottom-mosaic",
-      "src": "assets/bottom-mosaic/mosaicobaixo3.jpg",
+      "src": "assets/bottom-mosaic/banner_informatica.jpg",
       "alt": "Informática, confira!",
       "link": {
         "url": "/eletroeletronicos/informatica"
