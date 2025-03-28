@@ -339,6 +339,9 @@
   .filterBreadcrumbsText {
     font-size: 1.1rem;
   }
+  .filterBreadcrumbsItemName {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (max-width: 639px) {

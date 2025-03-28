@@ -51,6 +51,9 @@
   .arrow .link {
     color: #202020;
   }
+  .filterBreadcrumbsItemName {
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 767px) {

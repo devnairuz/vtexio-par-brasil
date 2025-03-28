@@ -1,0 +1,78 @@
+{
+    "store.custom#nao-autorizado": {
+      "children": [
+        "flex-layout.row#wrapper-topo",
+        "flex-layout.row#wrapper-main-na"
+      ],
+      "parent": {
+        "header": "header#empty",
+        "footer": "footer#empty"
+      }
+      
+    },
+  
+    "header#empty": {
+      "blocks": [
+        "header-layout.desktop#empty",
+        "header-layout.mobile#empty"
+      ]
+    },
+    "header-layout.desktop#empty": {
+      "children": []
+    },
+    "header-layout.mobile#empty": {
+      "children": []
+    },
+    "footer#empty": {
+      "blocks": [
+        "footer-layout.desktop#empty",
+        "footer-layout.mobile#empty"
+      ]
+    },
+    "footer-layout.desktop#empty": {
+      "children": []
+    },
+    "footer-layout.mobile#empty": {
+      "children": []
+    },
+  
+    "flex-layout.row#wrapper-topo": {
+      "children":[
+        "flex-layout.col#topo"
+      ],
+      "props": {
+        "blockClass": "wrapper-topo"
+      }
+    },
+  
+    "flex-layout.col#topo": {
+      "children": ["logo#nao-autorizado"],
+      "props": {
+        "blockClass": "container"
+      }
+    },
+  
+    "logo#nao-autorizado":{
+      "props": {
+        "blockClass": "logo-b2e-docol",
+        "href": "/",
+        "url": "assets/login/logo.svg"
+      }
+    },
+  
+    "flex-layout.row#wrapper-main-na": {
+      "children": [
+        "rich-text#aviso-na", "my-account"
+      ],
+      "props": {
+        "blockClass": "main-nao-autorizado"
+      }
+    },
+  
+    "rich-text#aviso-na": {
+      "props": {
+        "text": "Olá colaborador **Docol**, preencha seus dados abaixo corretamente e aguarde aprovação para acessar a loja."
+      }
+    }
+  
+  }

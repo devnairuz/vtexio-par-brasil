@@ -1,0 +1,69 @@
+:global(.title-b2e h1) {
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    margin: 0;
+  }
+  
+  :global(.title-b2e h1 span) {
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 800;
+  }
+  
+  :global(.bg-funcionario) {
+    background-image: url(/assets/vtex/assets-builder/docol.store-theme/1.0.0/login/bg-login-funcionario.png);
+    height: 562px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  :global(.rodape-b2e) {
+    padding-top: 40px;
+    padding-bottom: 10px;
+  }
+  
+  :global(.infos-texto p) {
+    font-size: 12px;
+    line-height: 16px;
+    color: #979797;
+  }
+  
+  :global(.infos-texto) {
+    padding-top: 10px;
+    border-top: 1px solid #D0D0D0;
+  }
+  
+  @media (max-width: 991px) {
+    :global(.vtex-store-components-3-x-container) {
+      max-width: 100%;
+    }
+  
+    :global(.infos-texto p) {
+      text-align: center;
+    }
+  
+    :global(.title-b2e h1) {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 20px;
+    }
+    :global(.title-b2e h1 span) {
+      font-size: 24px;
+      line-height: 30px;
+    }
+  }
+  
+  @media (max-width: 475px) {
+    :global(.bg-funcionario) {
+      background-image: url(/assets/vtex/assets-builder/docol.store-theme/1.0.0/login/bg-login-funcionario-mobile.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+  }

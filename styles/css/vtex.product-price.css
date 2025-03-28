@@ -64,6 +64,11 @@
   gap: 4px;
   color: #979797;
   font-size: 14px;
+  
+}
+
+.listPriceValue--list-price-pdp {
+  text-decoration: none;
 }
 
 .listPrice--list-price-pdp::before {
@@ -94,11 +99,6 @@
 }
 
 @media (max-width: 1025px) {
-  .listPrice--list-price-summary::before,
-  .sellingPrice--selling-price-summary:not(.sellingPrice--selling-price-summary--hasListPrice)::before {
-    display: none;
-  }
-
   :global(.vtex-flex-layout-0-x-flexCol--spot-price-summary-content) .spotPrice {
     padding-top: 8px;
     border-top: 1px solid #CCCCCC;

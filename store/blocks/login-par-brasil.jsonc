@@ -1,0 +1,88 @@
+{
+    "store.custom#login-par-brasil": {
+      "children": [
+        "flex-layout.row#wrapper-topo",
+        "b2e"
+      ],
+      "parent": {
+        "header": "header#empty",
+        "footer": "footer#empty"
+      }
+      
+    },
+  
+    "header#empty": {
+      "blocks": [
+        "header-layout.desktop#empty",
+        "header-layout.mobile#empty"
+      ]
+    },
+    "header-layout.desktop#empty": {
+      "children": []
+    },
+    "header-layout.mobile#empty": {
+      "children": []
+    },
+    "footer#empty": {
+      "blocks": [
+        "footer-layout.desktop#empty",
+        "footer-layout.mobile#empty"
+      ]
+    },
+    "footer-layout.desktop#empty": {
+      "children": []
+    },
+    "footer-layout.mobile#empty": {
+      "children": []
+    },
+  
+    "flex-layout.row#wrapper-topo": {
+      "children":[
+        "flex-layout.col#topo-login"
+      ],
+      "props": {
+        "blockClass": "wrapper-topo"
+      }
+    },
+  
+    "flex-layout.col#topo-login": {
+      "children": ["logo#parbrasil-login"],
+      "props": {
+        "blockClass": "container"
+      }
+    },
+  
+    "logo#parbrasil-login": {
+      "props": {
+        "blockClass": "logo-b2e-docol",
+        "href": "/",
+        "url": "assets/login/logo.svg",
+        "width": 162,
+        "height": 33
+      }
+    },
+  
+    "b2e": {
+      "props": {
+        "LoginB2E": "flex-layout.row#wrapper-login"
+      }
+    },
+  
+    "flex-layout.row#wrapper-login": {
+      "props": {
+        "blockClass": "wrapper-login-funcionario"
+      },
+      "children": [
+        "login-content#loginfuncionario"
+      ]
+    },
+  
+    "login-content#loginfuncionario": {
+      "props": {
+        "defaultOption": 0,
+        "optionsTitle": "Faça seu login",
+        "accessCodeTitle": "Faça seu login",
+        "emailPlaceholder": "Insira seu e-mail"
+      }
+    }
+  }

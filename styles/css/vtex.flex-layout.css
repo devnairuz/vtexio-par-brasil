@@ -740,9 +740,14 @@
     right: 2px;
     top: 0;
   }
+
+  .flexRowContent--container-price-tag-summary {
+    display: flex;
+  }
+
   .flexCol--list-selling-price-summary {
-    flex-direction: row;
-    align-items: center;
+    /* flex-direction: row;
+    align-items: center; */
   }
   .flexRow--summary-action-container {
     position: initial;
@@ -943,9 +948,9 @@
     gap: 8px;
   }
 
-  .flexRowContent--product-main-container .stretchChildrenWidth {
+  /* .flexRowContent--product-main-container .stretchChildrenWidth {
     width: 100% !important;
-  }
+  } */
 
   .flexRow--name-wish-container .stretchChildrenWidth,
   .flexRow--actions-pdp-container .stretchChildrenWidth {
