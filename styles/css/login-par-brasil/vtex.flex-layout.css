@@ -1,0 +1,26 @@
+.flexRow--wrapper-topo {
+    text-align: center;
+    padding: 25px 0;
+  }
+  
+  .flexRow--main {
+    background-image: url(/assets/vtex/assets-builder/docol.store-theme/1.0.0/login/bg-login.png);
+    height: 562px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .wrapper-login-funcionario :global(.vtex-login-2-x-loginOptionsContainer) {
+    display: none !important;
+  }
+  
+  .flexRow--wrapper-login-funcionario :global(.vtex-login-2-x-content--codeConfirmation) {
+    background-color: transparent;
+  }
+  
+  @media (max-width: 991px) {
+    .flexRow--wrapper-topo {
+      padding: 13px 0;
+    }
+  }

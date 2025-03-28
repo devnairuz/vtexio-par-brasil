@@ -54,9 +54,9 @@
   
     "logo#parbrasil-login": {
       "props": {
-        "blockClass": "logo-b2e-docol",
+        "blockClass": "logo-b2e-par-brasil",
         "href": "/",
-        "url": "assets/login/logo.svg",
+        "url": "assets/logos/logo-par-brasil.svg",
         "width": 162,
         "height": 33
       }
@@ -73,7 +73,8 @@
         "blockClass": "wrapper-login-funcionario"
       },
       "children": [
-        "login-content#loginfuncionario"
+        "login-content#loginfuncionario",
+        "modal-trigger#novaempresa"
       ]
     },
   
@@ -84,5 +85,20 @@
         "accessCodeTitle": "Faça seu login",
         "emailPlaceholder": "Insira seu e-mail"
       }
+    },
+    "modal-trigger#novaempresa": {
+      "children": [
+        "rich-text#abre-o-modal",
+        "modal-layout#componente-modal-nova-empresa"
+      ]
+    },
+    "rich-text#abre-o-modal": {
+      "props": {
+        "text": "Seja também uma empresa ou entidade conveniada.",
+        "blockClass": "trigger-modal-nova-empresa"
+      }
+    },
+    "modal-layout#componente-modal-nova-empresa": {
+      "children": ["modal-nova-empresa"]
     }
   }

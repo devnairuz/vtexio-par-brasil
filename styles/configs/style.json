@@ -129,7 +129,7 @@
       "muted-5": "#f2f4f5"
     },
     "text": {
-      "action-primary": "#FF6712",
+      "action-primary": "#000",
       "action-secondary": "#eef3f7",
       "link": "#A2A2A2",
       "emphasis": "#f71963",

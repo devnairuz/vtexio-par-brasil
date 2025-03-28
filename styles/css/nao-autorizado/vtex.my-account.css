@@ -1,0 +1,51 @@
+.documentsSubContainer .dataEntryLabel {
+    position: relative;
+  }
+  
+  .documentsSubContainer .dataEntryLabel:after {
+    content: 'CPF';
+    position: absolute;
+    left: 0;
+    color: #3f3f40;
+    font-size: 16px;
+  }
+  
+  .profileFormBoxContainer :global(.vtex-profile-form-3-x-personalFields .vtex-profile-form-3-x-styleguideInput:nth-child(4n) .vtex-input__label) {
+    position: relative;
+    color: transparent;
+  }
+  
+  .profileFormBoxContainer :global(.vtex-profile-form-3-x-personalFields .vtex-profile-form-3-x-styleguideInput:nth-child(4n) .vtex-input__label:after) {
+    content: 'CPF';
+    position: absolute;
+    left: 0;
+    color: #3f3f40;
+    font-size: .875rem;
+  }
+  .profileBoxContainer .boxContainer {
+    position: relative;
+  }
+  
+  .boxContainerFooter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .boxContainerFooter :global(.vtex-button) {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: text;
+  }
+  
+  @media (max-width: 650px) { 
+    :global(.vtex-account__page) :global(.vtex-pageHeader-link__container) :global(.vtex-button) {
+      display: none;
+    }
+  }

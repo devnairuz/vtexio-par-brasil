@@ -37,14 +37,14 @@
     "props": {
       "blockClass": "container-price-tag-summary"
     },
-    "children": ["product-selling-price#summary", "product-price-savings#pdp"]
+    "children": ["product-selling-price#summary", "product-price-savings#pdp-savings"]
   },
   "product-selling-price#summary": {
     "props": {
       "blockClass": "selling-price-summary"
     }
   },
-  "product-price-savings#pdp": {
+  "product-price-savings#pdp-savings": {
     "props": {
       "message": "-{savingsPercentage}"
     }

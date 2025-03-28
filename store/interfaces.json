@@ -34,5 +34,9 @@
 
   "b2e": {
     "component": "B2E"
+  },
+
+  "modal-nova-empresa": {
+    "component": "ModalNovaEmpresa"
   }
 }

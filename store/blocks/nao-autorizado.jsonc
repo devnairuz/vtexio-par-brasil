@@ -54,9 +54,9 @@
   
     "logo#nao-autorizado":{
       "props": {
-        "blockClass": "logo-b2e-docol",
+        "blockClass": "logo-b2e-par-brasil",
         "href": "/",
-        "url": "assets/login/logo.svg"
+        "url": "assets/logos/logo-par-brasil.svg"
       }
     },
   
@@ -71,7 +71,7 @@
   
     "rich-text#aviso-na": {
       "props": {
-        "text": "Olá colaborador **Docol**, preencha seus dados abaixo corretamente e aguarde aprovação para acessar a loja."
+        "text": "Usuário não autorizado. Entre em contato com a loja para mais informações."
       }
     }
   
