@@ -1,8 +1,0 @@
-{
-  "header": { //Arquivos nas pastas desktop e mobile
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
-  },
-  "header.full": { //Arquivos nas pastas desktop e mobile
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
-  }
-}
