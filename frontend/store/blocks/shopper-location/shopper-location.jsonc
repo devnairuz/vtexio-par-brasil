@@ -1,0 +1,60 @@
+{
+    "shopper-location": {
+      "props": {
+        "blockClass": ["shopper-location"]
+      },
+      "children": ["modal-trigger#address", "region-sellers"]
+    },
+    "modal-trigger#address": {
+      "props": {
+        "blockClass": ["shopper-location"]
+      },
+      "children": ["user-address", "modal-layout#address"]
+    },
+    "user-address": {
+      "props": {
+        "variation": "bar",
+        "showStreet": false,
+        "showCityAndState": true,
+        "showPostalCode": false,
+        "showPrefix": false,
+        "showIfEmpty": true,
+        "blockClass": ["shopper-location"]
+      }
+    },
+    "modal-layout#address": {
+      "children": ["modal-header#address", "modal-content#address"]
+    },
+    "modal-header#address": {
+      "children": ["flex-layout.col#address-header"]
+    },
+    "flex-layout.col#address-header": {
+      "children": ["rich-text#address-header"],
+      "props": {
+        "paddingLeft": 5
+      }
+    },
+    "rich-text#address-header": {
+      "props": {
+        "text": "### Mudar Localização"
+      }
+    },
+    "modal-content#address": {
+      "children": ["change-location"]
+    },
+    "change-location": {
+          "props":{
+        "postalCode": "first",
+              "autocomplete": true,
+        "notRequired": ["city", "country", "neighborhood", "number", "state", "street", "complement","receiverName", "reference"],
+        "hideFields": ["city", "country", "neighborhood", "number", "state", "street", "complement","receiverName", "reference"],
+        "autofill": ["city", "country", "neighborhood", "number", "postalCode", "state", "street"]
+      }
+      },
+    "region-sellers": {
+      "props": {
+        "initiallyCollapsed": true,
+        "mode": "default"
+      }
+    }
+  }

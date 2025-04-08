@@ -1,0 +1,13 @@
+{
+  "login#mobile01": {
+    "title": "Login",
+    "props": {
+      "emailAndPasswordTitle": "Login",
+      "accessCodeTitle": "Código de login",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "senha",
+      "showPasswordVerificationIntoTooltip": false,
+      "showIconProfile": true
+    }
+  }  
+}

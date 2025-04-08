@@ -1,0 +1,47 @@
+{
+  "flex-layout.row#upper-mosaic": {
+    "title": "Mosaico Triplo",
+    "props": {
+      "blockClass": ["upper-mosaic-container", "custom-container"]
+    },
+    "children": ["flex-layout.col#upper-mosaic"]
+  },
+
+  "flex-layout.col#upper-mosaic": {
+    "props": {
+      "blockClass": "upper-mosaic-content"
+    },
+    "children": ["image#upper-mosaic-first", "image#upper-mosaic-second", "image#upper-mosaic-third"]
+  },
+
+  "image#upper-mosaic-first": {
+    "props": {
+      "blockClass":"image__upper-mosaic",
+      "src": "assets/upper-mosaic/banner_eletrodomesticos.jpg",
+      "alt": "Eletro Domésticos, conferir!",
+      "link": {
+        "url": "/eletrodomesticos"
+      }
+    }
+  },
+  "image#upper-mosaic-second": {
+    "props": {
+      "blockClass":"image__upper-mosaic",
+      "src": "assets/upper-mosaic/banner_eletroeletronicos.jpg",
+      "alt": "Eletro Eletrônicos, conferir!",
+      "link": {
+        "url": "/eletroeletronicos"
+      }
+    }
+  },
+  "image#upper-mosaic-third": {
+    "props": {
+      "blockClass":"image__upper-mosaic",
+      "src": "assets/upper-mosaic/banner_eletroportateis.jpg",
+      "alt": "Eletro Portáteis, conferir!",
+      "link": {
+        "url": "/eletroportateis"
+      }
+    }
+  }
+}

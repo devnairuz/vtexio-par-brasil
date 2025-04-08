@@ -1,0 +1,154 @@
+.overlay--visible {
+  background-color: #212121;
+}
+
+.closeIconButton {
+  padding: 0;
+  margin: 32px 0 0 32px;
+}
+.closeIcon {
+  width: 16px;
+  fill: #1E1E1E;
+}
+
+.openIconContainer,
+.openIconContainer :global(.vtex-button__label) {
+  padding: 0;
+}
+
+.openIconContainer :global(.vtex-button__label) {
+  justify-content: initial;
+}
+
+.openIconContainer :global(.vtex-button) {
+  border: 0;
+  min-width: 100px;
+  min-height: initial;
+}
+
+.openIconContainer :global(.vtex-button):hover {
+  background: transparent;
+}
+
+.minicartIconContainer {
+  color: #202020;
+}
+
+.minicartQuantityBadge {
+  background: #225289;
+  font-weight: 700;
+  top: -5px;
+  left: 19px;
+  color: #fff;
+}
+
+.drawerContent {
+  position: relative;
+  z-index: 0;
+}
+
+.closeIconContainer {
+  position: absolute;
+}
+
+.minicartSideBarContentWrapper {
+  height: 100% !important;
+}
+
+.minicartTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31px;
+  padding: 32px 32px 25px;
+  border-bottom: 1px solid #1E1E1E;
+  margin: 0;
+}
+
+.minicartTitle::before {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='21' height='21' viewBox='0 0 21 21' fill='none'%3E%3Cpath d='M6.5 20.5C5.95 20.5 5.47917 20.3042 5.0875 19.9125C4.69583 19.5208 4.5 19.05 4.5 18.5C4.5 17.95 4.69583 17.4792 5.0875 17.0875C5.47917 16.6958 5.95 16.5 6.5 16.5C7.05 16.5 7.52083 16.6958 7.9125 17.0875C8.30417 17.4792 8.5 17.95 8.5 18.5C8.5 19.05 8.30417 19.5208 7.9125 19.9125C7.52083 20.3042 7.05 20.5 6.5 20.5ZM16.5 20.5C15.95 20.5 15.4792 20.3042 15.0875 19.9125C14.6958 19.5208 14.5 19.05 14.5 18.5C14.5 17.95 14.6958 17.4792 15.0875 17.0875C15.4792 16.6958 15.95 16.5 16.5 16.5C17.05 16.5 17.5208 16.6958 17.9125 17.0875C18.3042 17.4792 18.5 17.95 18.5 18.5C18.5 19.05 18.3042 19.5208 17.9125 19.9125C17.5208 20.3042 17.05 20.5 16.5 20.5ZM5.65 4.5L8.05 9.5H15.05L17.8 4.5H5.65ZM4.7 2.5H19.45C19.8333 2.5 20.125 2.67083 20.325 3.0125C20.525 3.35417 20.5333 3.7 20.35 4.05L16.8 10.45C16.6167 10.7833 16.3708 11.0417 16.0625 11.225C15.7542 11.4083 15.4167 11.5 15.05 11.5H7.6L6.5 13.5H18.5V15.5H6.5C5.75 15.5 5.18333 15.1708 4.8 14.5125C4.41667 13.8542 4.4 13.2 4.75 12.55L6.1 10.1L2.5 2.5H0.5V0.5H3.75L4.7 2.5Z' fill='%23225289'/%3E%3C/svg%3E");
+  line-height: 0;
+}
+
+.minicartProductListContainer {
+  padding: 32px 32px 24px;
+  height: calc(100vh - 80px - 204px);
+  height: calc(100dvh - 80px - 204px);
+}
+
+.minicartEmptyStateContainer {
+  margin-top: 32px;
+}
+
+.minicartSummary {
+  padding: 0;
+}
+
+.minicartCheckoutButton {
+  margin: 0;
+  padding: 0;
+}
+
+.minicartCheckoutButton :global(.vtex-button) {
+  background: #00724A;
+  border: 0;
+  padding: 12px 16px;
+  border-radius: 0px;
+  min-height: initial;
+  transition: all 0.3s ease-in-out;
+}
+
+.minicartCheckoutButton :global(.vtex-button):hover {
+  background: #003030;
+}
+
+.minicartCheckoutButton :global(.vtex-button__label) {
+  font-size: 0;
+  padding: 0;
+}
+
+.minicartCheckoutButton :global(.vtex-button__label)::before {
+  content: 'Ir para o carrinho';
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1025px) {
+  .openIconContainer :global(.vtex-button) {
+    padding: 0;
+    min-width: initial;
+  }
+
+  .openIconContainer :global(.vtex-button)::after {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .closeIconButton {
+    margin: 6px 0 0 15px;
+  }
+
+  .minicartTitle {
+    padding: 24px 0;
+    margin: 0;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: uppercase;
+  }
+
+  .minicartProductListContainer {
+    padding: 24px 15px;
+    height: calc(100vh - 74px - 138px);
+    height: calc(100dvh - 74px - 138px);
+  }
+
+  .minicartCheckoutButton :global(.vtex-button) {
+    padding: 10px;
+  }
+}

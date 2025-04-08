@@ -1,0 +1,13 @@
+{
+  "image#footer-logo": {
+    "title": "Logo",
+    "props": {
+      "blockClass": "footer-logo",
+      "src": "assets/logos/logo-par-brasil.svg",
+      "alt": "Par Brasil",
+      "link": {
+        "url": "/"
+      }
+    }
+  }
+}

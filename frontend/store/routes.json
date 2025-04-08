@@ -1,0 +1,40 @@
+{
+  "store.custom#quem-somos": {
+    "path": "/quem-somos"
+  },
+
+  "store.custom#termos-de-uso": {
+    "path": "/termos-de-uso"
+  },
+
+  "store.custom#politicas-de-envio-trocas-e-devolucoes": {
+    "path": "/politicas-de-envio-trocas-e-devolucoes"
+  },
+
+  "store.custom#fale-conosco": {
+    "path": "/fale-conosco"
+  },
+  
+  "store.custom#fabricantes": {
+    "path": "/fabricantes"
+  },
+
+  "store.custom#politicas-privacidade-e-protecao-de-dados": {
+    "path": "/politicas-privacidade-e-protecao-de-dados"
+  },
+
+  "store.custom#politica-de-cookies": {
+    "path": "/politica-de-cookies"
+  },
+
+  "store.custom#duvidas-mais-frequentes": {
+    "path": "/duvidas-mais-frequentes"
+  },
+
+  "store.custom#login-par-brasil": {
+    "path": "/login-par-brasil"
+  },
+  "store.custom#nao-autorizado": {
+    "path": "/nao-autorizado"
+  }
+}

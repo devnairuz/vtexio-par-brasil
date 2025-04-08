@@ -1,0 +1,110 @@
+{
+  "flex-layout.col#cms-menu": {
+    "title": "Menu CMS",
+    "props": {
+      "blockClass": "cms-menu-content",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#cms-menu-title",
+      "flex-layout.row#cms-menu-wrapper"
+    ]
+  },
+
+  "flex-layout.row#cms-menu-title": {
+    "props": {
+      "blockClass": "cms-menu-title-wrapper"
+    },
+    "children": ["flex-layout.col#cms-menu-title"]
+  },
+  "flex-layout.col#cms-menu-title": {
+    "props": {
+      "blockClass": "cms-menu-title-content"
+    },
+    "children": ["rich-text#cms-menu-title"]
+  },
+  "rich-text#cms-menu-title": {
+    "props": {
+      "blockClass": "footer-title",
+      "text": "#### Institucional"
+    }
+  },
+
+  "flex-layout.row#cms-menu-wrapper": {
+    "props": {
+      "blockClass": "cms-menu-wrapper"
+    },
+    "children": ["flex-layout.col#cms-menu-wrapper"]
+  },
+  "flex-layout.col#cms-menu-wrapper": {
+    "props": {
+      "blockClass": "cms-menu-wrapper-content"
+    },
+    "children": [
+      "rich-text#cms-quem-somos", 
+      "rich-text#cms-termos-de-uso",
+      "rich-text#cms-politicas-de-envio-trocas-e-devolucoes", 
+      "rich-text#cms-fale-conosco", 
+      "rich-text#cms-fabricantes",
+      "rich-text#cms-politicas-privacidade-e-protecao-de-dados",
+      "rich-text#cms-cookies",
+      "rich-text#cms-duvidas-mais-frequentes"
+    ]
+  },
+
+  "rich-text#cms-quem-somos": {
+    "props": {
+      "text": "[Quem Somos](/quem-somos)",
+      "blockClass": "cms-link"
+    }
+  },
+
+
+  "rich-text#cms-termos-de-uso": {
+    "props": {
+      "text": "[Termos de Uso](/termos-de-uso)",
+      "blockClass": "cms-link"
+    }
+  },
+
+  "rich-text#cms-politicas-de-envio-trocas-e-devolucoes": {
+    "props": {
+      "text": "[Política de Envio, Trocas e Devoluções.](/politicas-de-envio-trocas-e-devolucoes)",
+      "blockClass": "cms-link"
+    }
+  },
+
+  "rich-text#cms-fale-conosco": {
+    "props": {
+      "text": "[Fale conosco](/fale-conosco)",
+      "blockClass": "cms-link"
+    }
+  },
+  "rich-text#cms-fabricantes": {
+    "props": {
+      "text": "[Fabricantes](/fabricantes)",
+      "blockClass": "cms-link"
+    }
+  },
+
+  "rich-text#cms-politicas-privacidade-e-protecao-de-dados": {
+    "props": {
+      "text": "[Política de Privacidade e Proteção de Dados](/politicas-privacidade-e-protecao-de-dados)",
+      "blockClass": "cms-link"
+    }
+  },
+  
+  "rich-text#cms-cookies": {
+    "props": {
+      "text": "[Políticas de Cookies](/politica-de-cookies)",
+      "blockClass": "cms-link"
+    }
+  },
+
+  "rich-text#cms-duvidas-mais-frequentes": {
+    "props": {
+      "text": "[Dúvidas mais frequentes](/duvidas-mais-frequentes)",
+      "blockClass": "cms-link"
+    }
+  }
+}

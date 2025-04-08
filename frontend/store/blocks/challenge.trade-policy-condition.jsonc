@@ -1,0 +1,9 @@
+{
+  "challenge.trade-policy-condition": {
+    "props": {
+      "redirectPath": "/login-par-brasil",
+      "forbiddenRedirectPath": "/nao-autorizado?returnUrl=/#/profile",
+      "defaultContentVisibility": "hidden"
+    }
+  }
+}

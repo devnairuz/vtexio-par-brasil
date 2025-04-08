@@ -1,0 +1,14 @@
+{
+  "routes": {
+    "checkAccess": {
+      "path": "/_v/private/checkAccess",
+      "public": false,
+      "middlewares": ["checkAccess"]
+    },
+    "status": {
+      "path": "/_status",
+      "public": true,
+      "middlewares": ["status"]
+    }
+  }
+}

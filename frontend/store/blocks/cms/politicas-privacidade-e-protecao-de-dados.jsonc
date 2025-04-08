@@ -1,0 +1,47 @@
+{
+  "store.custom#politicas-privacidade-e-protecao-de-dados": {
+    "children": [
+      "flex-layout.row#linha-bread",
+      "flex-layout.row#politicas-de-privacidade"
+    ]
+  },
+  "flex-layout.row#politicas-de-privacidade": {
+    "props": {
+      "blockClass": ["custom-container", "cms-page-container"]
+    },
+    "children": ["flex-layout.col#politicas-de-privacidade"]
+  },
+  "flex-layout.col#politicas-de-privacidade": {
+    "children": [
+      "rich-text#politicas-de-privacidade",
+      "rich-text#politicas-de-privacidade-conteudo",
+      "rich-text#politicas-de-privacidade-conteudo2"
+    ],
+    "props": {
+      "blockClass": ["cms-page-content"]
+    }
+  },
+  "rich-text#politicas-de-privacidade": {
+    "props": {
+      "blockClass": ["cms-page-title"],
+      "text": "# POLÍTICA DE PRIVACIDADE E PROTEÇÃO DE DADOS "
+    }
+  },
+    "rich-text#politicas-de-privacidade-conteudo": {
+      "props": {
+        "blockClass": ["cms-page-content"],
+        "text": "A Par Brasil Ltda, com sede em S\u00e3o Paulo/SP, valoriza a privacidade e a prote\u00e7\u00e3o dos dados pessoais de seus usu\u00e1rios. Este Termo de Privacidade e Prote\u00e7\u00e3o de Dados descreve como coletamos, utilizamos, armazenamos e protegemos os dados pessoais em conformidade com a Lei Geral de Prote\u00e7\u00e3o de Dados (LGPD) \u2013 Lei n\u00ba 13.709/2018.\n\nAo utilizar a plataforma da Par Brasil Ltda (\"Plataforma\"), voc\u00ea concorda com os termos descritos a seguir.\n\n### 1. DADOS COLETADOS E FINALIDADES\n\n**1.1. Dados Pessoais Coletados:** Para operar a plataforma e oferecer nossos servi\u00e7os, coletamos os seguintes dados pessoais: \n -Nome completo;\n-CPF;\n-Endere\u00e7o residencial;\n-E-mail;\n-Telefone;\n-Informa\u00e7\u00f5es de login (usu\u00e1rio e senha);\n-Dados de acesso (IP, data e hora de login, dispositivo e navegador).\n\n**1.2. Finalidades do Tratamento:** Os dados pessoais coletados ser\u00e3o utilizados para:\n-Gest\u00e3o e administra\u00e7\u00e3o de contas de usu\u00e1rios na Plataforma;\n-Facilitar a comunica\u00e7\u00e3o entre os Sellers (fabricantes) e os consumidores;\n-Personalizar a experi\u00eancia do usu\u00e1rio, incluindo recomenda\u00e7\u00f5es de produtos e servi\u00e7os;\n-Enviar comunica\u00e7\u00f5es de marketing, promo\u00e7\u00f5es e ofertas, desde que autorizado pelo usu\u00e1rio;\n-Cumprimento de obriga\u00e7\u00f5es legais e regulat\u00f3rias;\n-Preven\u00e7\u00e3o a fraudes e garantia de seguran\u00e7a na utiliza\u00e7\u00e3o da Plataforma.\n\n### 2. BASES LEGAIS PARA O TRATAMENTO DE DADOS\n\nO tratamento de dados pessoais realizado pela Par Brasil Ltda ocorre com base nas seguintes hip\u00f3teses previstas na LGPD:\n-Consentimento:\n Para a\u00e7\u00f5es de marketing e envio de ofertas personalizadas;\n-Execu\u00e7\u00e3o de Contrato: Para viabilizar a opera\u00e7\u00e3o da Plataforma;\n-Cumprimento de Obriga\u00e7\u00f5es Legais:\n Quando necess\u00e1rio;\n-Leg\u00edtimo Interesse: Para aprimorar a experi\u00eancia do usu\u00e1rio e proteger a seguran\u00e7a da Plataforma.\n\n### 3. COMPARTILHAMENTO DE DADOS\n\nOs dados pessoais podem ser compartilhados com:\n-Sellers (fabricantes): Para a execu\u00e7\u00e3o de compras e entrega de produtos ou servi\u00e7os adquiridos pelo usu\u00e1rio;\n-Empresas parceiras: Para oferecer benef\u00edcios exclusivos, desde que autorizado pelo usu\u00e1rio;\n-Fornecedores de tecnologia e prestadores de servi\u00e7o: Como hospedagem, seguran\u00e7a e envio de comunica\u00e7\u00f5es, sempre em conformidade com a LGPD;\n-Autoridades competentes: Para cumprimento de obriga\u00e7\u00f5es legais ou ordens judiciais.\n\n### 4. CONSENTIMENTO E DIREITOS DO USU\u00c1RIO\n\n**4.1. Consentimento:** Ao se cadastrar e utilizar a Plataforma, o usu\u00e1rio autoriza a coleta e o tratamento de seus dados conforme descrito neste Termo. O consentimento para a\u00e7\u00f5es de marketing \u00e9 opcional e pode ser revogado a qualquer momento.\n\n**4.2. Direitos do Usu\u00e1rio:** Em conformidade com a LGPD, o usu\u00e1rio tem os seguintes direitos:\n-Confirma\u00e7\u00e3o da exist\u00eancia de tratamento de dados;\n-Acesso aos dados pessoais;\n-Corre\u00e7\u00e3o de dados incompletos, inexatos ou desatualizados;\n-Anonimiza\u00e7\u00e3o, bloqueio ou elimina\u00e7\u00e3o de dados desnecess\u00e1rios, excessivos ou tratados em desconformidade com a lei;\n-Portabilidade dos dados a outro fornecedor de servi\u00e7o ou produto;\n-Elimina\u00e7\u00e3o de dados tratados com base no consentimento;\n-Informa\u00e7\u00e3o sobre o compartilhamento de dados;\n-Revoga\u00e7\u00e3o do consentimento.\n\nO exerc\u00edcio desses direitos pode ser solicitado atrav\u00e9s do e-mail: lgpd@parbrasil.com.br\n\n### 5. ARMAZENAMENTO E SEGURAN\u00c7A DOS DADOS\n\nA Par Brasil Ltda utiliza medidas t\u00e9cnicas e administrativas para proteger os dados pessoais contra acessos n\u00e3o autorizados, perda, altera\u00e7\u00e3o ou qualquer outro incidente de seguran\u00e7a. Os dados ser\u00e3o armazenados por per\u00edodo necess\u00e1rio ao cumprimento das finalidades descritas neste Termo, respeitando os prazos legais aplic\u00e1veis.\n\n### 6. COOKIES E TECNOLOGIAS DE RASTREAMENTO\n\nUtilizamos cookies e tecnologias semelhantes para:\n-Melhorar a funcionalidade da Plataforma;\n-Personalizar a experi\u00eancia do usu\u00e1rio;\n-Coletar dados estat\u00edsticos.\n\nO usu\u00e1rio pode gerenciar as prefer\u00eancias de cookies diretamente no navegador ou nas configura\u00e7\u00f5es da Plataforma.\n\n### 7. ALTERA\u00c7\u00d5ES NA POL\u00cdTICA\n\nA Par Brasil Ltda reserva-se o direito de atualizar este Termo para refletir altera\u00e7\u00f5es em nossos servi\u00e7os ou para cumprir requisitos legais. Caso haja mudan\u00e7as significativas, os usu\u00e1rios ser\u00e3o notificados atrav\u00e9s da Plataforma ou por e-mail.\n\n### 8. FALE CONOSCO\n\nEm caso de d\u00favidas, solicita\u00e7\u00f5es ou reclama\u00e7\u00f5es relacionadas \u00e0 privacidade e prote\u00e7\u00e3o de dados, entre em contato com nosso Encarregado de Dados (DPO):",
+        "textAlignment": "initial",
+        "textPosition": "initial"
+      }
+    },
+    "rich-text#politicas-de-privacidade-conteudo2": {
+    "props": {
+      "blockClass": ["cms-page-content2"],
+      "text": "**- E-mail:** atendimento@parbrasil.com.br \n **- Endereço:** Avenida Europa 696, Jardim Paulistano / São Paulo-SP \n\n  Ao utilizar a Plataforma Par Brasil, você declara que leu, compreendeu e concorda com os termos deste documento ",
+      "textAlignment": "initial",
+      "textPosition": "initial"
+    }
+  }
+
+}

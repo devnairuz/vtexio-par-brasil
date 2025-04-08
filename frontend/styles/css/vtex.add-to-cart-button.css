@@ -1,0 +1,16 @@
+/* CARD PRODUTO */
+.buttonText--buy-button-shelf {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+  background: #00724A;
+  box-shadow: 0px 3px 6px #00724A;
+  border-radius: 0;
+  border: 0;
+}
+
+@media (max-width: 1025px) {
+  .buttonText--buy-button-shelf {
+    font-size: 16px;
+  }
+}

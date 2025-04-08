@@ -1,0 +1,141 @@
+:global(.vtex-store-components-3-x-container) {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.loginB2e {
+  max-width: 325px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.loginB2e form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.loginB2e form input {
+  height: 39px;
+  padding-inline: 10px;
+  border: none;
+  color: #000;
+  font-family: "Exo", sans-serif;
+}
+
+.loginB2e form input::placeholder {
+  color: #1E1E1E;
+}
+
+.loginB2e form input:focus {
+  outline: none;
+}
+
+.loginB2e form button {
+  background-color: #225289;
+  color: #fff;
+  border: none;
+  padding-block: 14px;
+  font-family: "Exo", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: .4s;
+}
+
+.loginB2e form button:hover {
+  opacity: .8;
+}
+
+.titleB2e h1 {
+  font-size: 20px;
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: 700;
+  margin: 0;
+}
+  
+.titleB2e p {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0;
+  margin-top: 1rem;
+}
+  
+.bgFuncionario {
+  background-image: url("./images/bg-login.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 562px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginB2e h3 {
+  color: #fff;
+}
+
+.rodapeB2e {
+  padding-block: 37px;
+}
+
+.infosTexto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.infosTexto p {
+  font-size: 14px;
+  color: #979797;
+  margin: 0;
+}
+
+.infosTexto .logosRodape {
+  display: flex;
+  gap: 34px;
+}
+
+.infosTexto .logo {
+  display: flex;
+  gap: 14px;
+}
+
+.infosTexto .logosRodape img {
+  object-fit: cover;
+}
+  
+@media (max-width: 991px) {
+  :global(.vtex-store-components-3-x-container) {
+    max-width: 100%;
+  }
+
+  .infosTexto p {
+    text-align: center;
+  }
+
+  .titleB2e h1 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .titleB2e h1 span {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+  
+@media (max-width: 475px) {
+  .bgFuncionario {
+    background-image: url("./images/bg-login.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
