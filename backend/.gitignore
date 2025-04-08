@@ -26,6 +26,7 @@ Desktop.ini
 $RECYCLE.BIN/
 
 # App specific
+node/node_modules/
 node_modules/
 docs/_book/
 .tmp
