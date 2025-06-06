@@ -1,0 +1,111 @@
+:global(.vtex-flex-layout-0-x-flexRow--wrapper-login-funcionario) :global(.vtex-flex-layout-0-x-flexRowContent) {
+  flex-direction: column;
+  align-items: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--wrapper-login-funcionario) :global(.vtex-flex-layout-0-x-flexRowContent) :global(.vtex-rich-text-0-x-container--trigger-modal-nova-empresa) {
+  justify-content: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--wrapper-login-funcionario) :global(.vtex-flex-layout-0-x-flexRowContent) :global(.vtex-rich-text-0-x-wrapper--trigger-modal-nova-empresa p) {
+  color: #fff;
+  text-decoration: underline;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--wrapper-login-funcionario) .loginOptionsContainer {
+  display: none !important;
+}
+  
+:global(.vtex-flex-layout-0-x-flexRow--wrapper-login-funcionario) .content--emailVerification  {
+  background: unset;
+  min-height: auto;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--wrapper-login-funcionario) .inputContainerEmail input,
+:global(.vtex-flex-layout-0-x-flexRow--wrapper-login-funcionario) .inputContainerEmail :global(.vtex-input-prefix__group) {
+  border-radius: 0;
+}
+  
+:global(.vtex-flex-layout-0-x-flexRow--wrapper-login-funcionario) :global(.vtex-button) {
+  width: 100%;
+  background-color: #225289;
+  height: 51px;
+  border-radius: 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--wrapper-login-funcionario) :global(.vtex-button):hover {
+  background-color: #225289;
+  opacity: .8;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--wrapper-login-funcionario) :global(.t-small) {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--wrapper-login-funcionario) .backButton :global(.vtex-button) {
+  background-color: unset;
+  color: #fff;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--wrapper-login-funcionario) .backButton :global(.t-small)  {
+  color: #fff;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--wrapper-login-funcionario) :global(.vtex-input-prefix__group) {
+  margin-right: 0;
+  border: unset;
+  height: 50px;
+  color: #343434;
+  font-size: 16px;
+  border-radius: 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--wrapper-login-funcionario) :global(.vtex-input-prefix__group)::placeholder {
+  color: #343434;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--wrapper-login-funcionario) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input::placeholder) {
+  color: #343434;
+  font-size: 16px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--wrapper-login-funcionario) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input)::placeholder {
+  color: #343434;
+  font-size: 16px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--wrapper-login-funcionario) .formTitle {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  margin: 43px 0 15px;
+  padding: 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--wrapper-login-funcionario) .contentForm {
+  min-width: 380px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--wrapper-login-funcionario) .formFooter  {
+  border: unset;
+}
+  
+@media (max-width: 991px) { 
+  :global(.vtex-flex-layout-0-x-flexRow--wrapper-login-funcionario) .contentForm {
+    min-width: 100%;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--wrapper-login-funcionario) .formTitle {
+    font-size: 18px;
+    line-height: 23px;
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "memory": 128,
+  "ttl": 10,
+  "timeout": 2,
+  "routes": {
+    "checkOrCreateUser": {
+      "path": "/custom-login",
+      "public": true,
+      "method": "GET"
+    },
+    "status": {
+      "path": "/status",
+      "public": true,
+      "method": "GET"
+    }
+  }
+}
