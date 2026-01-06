@@ -47,7 +47,7 @@ const B2E = ({ LoginB2E }) => {
       const formApiExterna = document.querySelector("#formApiExterna");
 
       // Valida com seu backend
-      await axios.post('http://localhost:3333/api/finduser', { user }).then(async response => {
+      await axios.post('https://clientes-backend.vercel.app/api/finduser', { user }).then(async response => {
         if(response.data) {
           setNativeValue(formfieldEmailVtex, response.data.email);
           formVtexButtonSubmit.click();
